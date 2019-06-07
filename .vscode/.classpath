@@ -40,5 +40,8 @@
     <classpathentry kind="src" path="_/v2ch09"/>
     <classpathentry kind="src" path="_/v2ch10"/>
     <classpathentry kind="src" path="_/v2ch11"/>
+    <classpathentry kind="lib" path="_/lib/javaws.jar"/>
+    <classpathentry kind="lib" path="_/lib/javax.mail-1.6.2.jar"/>
+    <classpathentry kind="lib" path="_/lib/bcel-6.0-SNAPSHOT.jar"/>
     <classpathentry kind="output" path="bin"/>
 </classpath>

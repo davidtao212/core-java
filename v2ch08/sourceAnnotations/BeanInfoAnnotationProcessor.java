@@ -67,7 +67,7 @@ public class BeanInfoAnnotationProcessor extends AbstractProcessor
    {
       JavaFileObject sourceFile = processingEnv.getFiler().createSourceFile(
          beanClassName + "BeanInfo");
-      PrintWriter out = new PrintWriter(sourceFile.openWriter(), "UTF-8");
+      PrintWriter out = new PrintWriter(sourceFile.openWriter());
       int i = beanClassName.lastIndexOf(".");
       if (i > 0)
       {
