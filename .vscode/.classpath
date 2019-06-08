@@ -13,12 +13,7 @@
     <classpathentry kind="src" path="_/v1ch03/LotteryOdds"/>
     <classpathentry kind="src" path="_/v1ch03/Retirement"/>
     <classpathentry kind="src" path="_/v1ch03/Retirement2"/>
-    <classpathentry kind="src" path="_/v1ch04/CalendarTest"/>
-    <classpathentry kind="src" path="_/v1ch04/ConstructorTest"/>
-    <classpathentry kind="src" path="_/v1ch04/EmployeeTest"/>
-    <classpathentry kind="src" path="_/v1ch04/PackageTest"/>
-    <classpathentry kind="src" path="_/v1ch04/ParamTest"/>
-    <classpathentry kind="src" path="_/v1ch04/StaticTest"/>
+    <classpathentry kind="src" path="_/v1ch04"/>
     <classpathentry kind="src" path="_/v1ch05"/>
     <classpathentry kind="src" path="_/v1ch06"/>
     <classpathentry kind="src" path="_/v1ch07"/>
