@@ -21,14 +21,14 @@ public class GenericAlgorithms
       String[] ss = ArrayAlg.minmax("Tom", "Dick", "Harry");
       System.out.println(Arrays.toString(ss));
       
-      ss = ArrayAlg.minmax(String[]::new, "Tom", "Dick", "Harry");
+      ss = ArrayAlg.minmax2(String[]::new, "Tom", "Dick", "Harry");
       System.out.println(Arrays.toString(ss));      
    }
 }
 
 class ArrayAlg
 {
-   public static <T extends Comparable> T[] minmax(IntFunction<T[]> constr, T... a)
+   public static <T extends Comparable> T[] minmax2(IntFunction<T[]> constr, T... a)
    {
       T[] mm = constr.apply(2);
       T min = a[0];
